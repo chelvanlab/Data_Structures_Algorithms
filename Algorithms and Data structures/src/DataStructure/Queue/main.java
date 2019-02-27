@@ -7,13 +7,10 @@ public class main {
         Queue q = new Queue(5);
         q.enqueue(5);
         q.enqueue(4);
-        q.enqueue(8);
-        q.enqueue(4);
-        q.enqueue(8);
+   
 
         q.dequeue();
-        q.dequeue();
-        q.dequeue();
+        
 
         q.enqueue(78);
         q.display();
